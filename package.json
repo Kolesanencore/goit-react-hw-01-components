@@ -2,7 +2,7 @@
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Kolesanencore/goit-react-hw-01-components.git",
+  "homepage": "https://github.com/Kolesanencore/goit-react-hw-01-components/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
