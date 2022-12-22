@@ -1,0 +1,49 @@
+.list {
+  display: block;
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 10px 10px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px rgb(231 122 104), inset 0 1px rgb(255 255 255 / 30%), inset 0 10px rgb(255 255 255 / 20%), inset 0 10px 20px rgb(255 255 255 / 25%), inset 0 -15px 30px rgb(255 107 1 / 30%);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 50px;
+  padding: 2px;
+  border-radius: 5px;
+  
+}
+
+.item .name {
+  margin: 0 20px 0 10px;
+}
+
+.true {
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: teal;
+  z-index: 4;
+}
+
+.false {
+  box-shadow: 0 2px 8px rgb(255 107 1 / 50%), inset 0 1px rgb(255 255 255 / 30%), inset 0 10px rgb(255 255 255 / 20%), inset 0 10px 20px rgb(255 255 255 / 25%), inset 0 -15px 30px rgb(255 107 1 / 30%);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  z-index: 4;
+}

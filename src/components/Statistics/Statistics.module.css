@@ -1,0 +1,34 @@
+.statistics {
+  width: fit-content; 
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(54, 54, 54, 0.26);
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+box-shadow: 0 2px 8px rgb(231 122 104), inset 0 1px rgb(255 255 255 / 30%), inset 0 10px rgb(255 255 255 / 20%), inset 0 10px 20px rgb(255 255 255 / 25%), inset 0 -15px 30px rgb(255 107 1 / 30%);
+
+}
+
+.title {
+  text-transform: uppercase;
+  color: rgb(122, 122, 122);
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+.statlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(231, 123, 104, 0.409), inset 0 1px rgb(255 255 255 / 30%), inset 0 10px rgb(255 255 255 / 20%), inset 0 10px 20px rgb(255 255 255 / 25%), inset 0 -15px 30px rgb(255 107 1 / 30%);
+}

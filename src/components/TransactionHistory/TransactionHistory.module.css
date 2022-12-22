@@ -1,0 +1,32 @@
+.table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(136, 137, 138);
+  box-shadow: 1px 1px 5px rgb(49 49 49 / 33%);
+  background-color: #ffffffc4;
+  
+}
+
+.thead {
+background-color: rgb(64 191 218);
+  color: #ffff;
+  box-shadow: 0 2px 8px rgb(104, 223, 231), inset 0 1px rgb(255 255 255 / 30%), inset 0 10px rgb(255 255 255 / 20%), inset 0 10px 20px rgb(255 255 255 / 25%), inset 0 -15px 30px rgb(255 107 1 / 30%);
+}
+
+.table th {
+  font-weight: bold;
+  width: 200px;
+  padding: 5px;
+
+  border: 1px solid #dddddd;
+}
+
+.table td {
+  text-align: center;
+  border: 1px solid #dddddd;
+  padding: 10px 30px;
+}
+
+.table tr:nth-child(even) {
+  background-color: rgb(241, 241, 241);
+}
